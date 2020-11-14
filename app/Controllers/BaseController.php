@@ -1,5 +1,4 @@
-<?php
-namespace App\Controllers;
+<?php namespace App\Controllers;
 
 /**
  * Class BaseController
@@ -41,6 +40,7 @@ class BaseController extends Controller
 		//--------------------------------------------------------------------
 		// E.g.:
 		// $this->session = \Config\Services::session();
+		$this->name = "Yuan";
 	}
 
 }
